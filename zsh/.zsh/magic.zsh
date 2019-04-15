@@ -22,4 +22,4 @@ if [ "$TERM" = "linux" ]; then
 fi
 
 # set dircolors
-eval `/usr/bin/dircolors -b ~/.dircolors`
+eval `/usr/bin/dircolors -b ~/.dir_colors`

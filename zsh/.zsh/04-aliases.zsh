@@ -9,7 +9,7 @@ alias gc="git commit -m"
 alias gca="git commit -am"
 alias gco="git checkout"
 # L
-alias ll="ls -la --color=auto"
+alias ll="ls -alF"
 # S
 alias scp="scp -r"
 alias systemctl="sudo systemctl"

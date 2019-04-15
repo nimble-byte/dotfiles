@@ -3,7 +3,7 @@
   "editor.cursorStyle": "line-thin",
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.fontFamily": "Source Code Pro for Powerline",
+  "editor.fontFamily": "'Source Code Pro', 'Source Code Pro for Powerline'",
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "boundary",
   "editor.rulers": [100],
@@ -55,4 +55,5 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.statusBar.feedback.visible": false,
   "window.zoomLevel": 0,
+  "javascript.updateImportsOnFileMove.enabled": "always",
 }
