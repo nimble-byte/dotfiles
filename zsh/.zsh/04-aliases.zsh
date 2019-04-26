@@ -10,6 +10,9 @@ alias gca="git commit -am"
 alias gco="git checkout"
 # L
 alias ll="ls -alF"
+# R
+alias reboot="sudo reboot"
+alias restart="sudo reboot"
 # S
 alias scp="scp -r"
 alias systemctl="sudo systemctl"
