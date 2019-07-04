@@ -26,9 +26,13 @@
   "terminal.integrated.fontFamily": "SauceCodePro Nerd Font",
   "terminal.integrated.scrollback": 10000,
 
+  // JS
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
   // Window
   "window.menuBarVisibility": "visible",
   "window.titleBarStyle": "custom",
+  "window.zoomLevel": 0,
 
   // Workbench
   "workbench.colorTheme": "Sublime Material Theme - Dark",
@@ -53,7 +57,5 @@
     "terminal.ansiBrightWhite": "#ffffff"
   },
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.statusBar.feedback.visible": false,
-  "window.zoomLevel": 0,
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.statusBar.feedback.visible": false
 }
