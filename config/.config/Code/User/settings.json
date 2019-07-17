@@ -9,6 +9,10 @@
   "editor.rulers": [100],
   "editor.tabSize": 2,
 
+  // ESLint
+  "eslint.enable": true,
+  "eslint.packageManager": "yarn",
+
   // Explorer
   "explorer.confirmDelete": true,
 
@@ -33,9 +37,6 @@
   "window.menuBarVisibility": "visible",
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
-
-  // Workbench
-  "workbench.colorTheme": "Sublime Material Theme - Dark",
   "workbench.colorCustomizations": {
     "terminal.background": "#252525",
     "terminal.foreground": "#eceff1",
@@ -48,14 +49,15 @@
     "terminal.ansiWhite": "#eceff1",
     "terminal.ansiRed": "#a54242",
     "terminal.ansiBrightBlack": "#617f8a",
-    "terminal.ansiBrightRed":"#ec407a",
+    "terminal.ansiBrightRed": "#ec407a",
     "terminal.ansiBrightGreen": "#9ccc65",
-    "terminal.ansiBrightYellow":"#ffb74d",
+    "terminal.ansiBrightYellow": "#ffb74d",
     "terminal.ansiBrightBlue": "#42a5f5",
     "terminal.ansiBrightMagenta": "#b39ddb",
     "terminal.ansiBrightCyan": "#26c6da",
     "terminal.ansiBrightWhite": "#ffffff"
   },
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.statusBar.feedback.visible": false
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.colorTheme": "One Dark Pro"
 }
