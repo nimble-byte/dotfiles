@@ -4,23 +4,23 @@
 # Son A. Pham under the MIT license: https://github.com/sonph/onehalf
 
 # ====================CONFIG THIS =============================== #
-export COLOR_01="#282c34"           # HOST
-export COLOR_02="#e06c75"           # SYNTAX_STRING
-export COLOR_03="#98c379"           # COMMAND
-export COLOR_04="#e5c07b"           # COMMAND_COLOR2
-export COLOR_05="#61afef"           # PATH
-export COLOR_06="#c678dd"           # SYNTAX_VAR
-export COLOR_07="#56b6c2"           # PROMP
-export COLOR_08="#dcdfe4"           #
+export COLOR_01="#263238"           # BLACK
+export COLOR_02="#a54242"           # RED
+export COLOR_03="#8bc34a"           # GREEN
+export COLOR_04="#f7c42a"           # YELLOW
+export COLOR_05="#2196f3"           # BLUE
+export COLOR_06="#9575cd"           # MAGENTA
+export COLOR_07="#00bcd4"           # CYAN
+export COLOR_08="#eceff1"           # WHITE
 
-export COLOR_09="#282c34"           #
-export COLOR_10="#e06c75"           # COMMAND_ERROR
-export COLOR_11="#98c379"           # EXEC
-export COLOR_12="#e5c07b"           #
-export COLOR_13="#61afef"           # FOLDER
-export COLOR_14="#c678dd"           #
-export COLOR_15="#56b6c2"           #
-export COLOR_16="#dcdfe4"           #
+export COLOR_09="#617f8a"           # 
+export COLOR_10="#ec407a"           #
+export COLOR_11="#9ccc65"           #
+export COLOR_12="#ffb74d"           #
+export COLOR_13="#42a5f5"           #
+export COLOR_14="#b39ddb"           #
+export COLOR_15="#26c6da"           #
+export COLOR_16="#ffffff"           #
 
 export BACKGROUND_COLOR="#252525"   # Background Color
 export FOREGROUND_COLOR="#eceff1"   # Text
