@@ -1,7 +1,6 @@
 [user]
   name = Til Goepfert
-	email = tilgoepfert@gmail.com
-  # email = til.goepfert@dxc.com
+  email = tilgoepfert@gmail.com
 
 [core]
   excludesfile = ~/.gitignore_global
