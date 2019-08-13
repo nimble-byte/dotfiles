@@ -1,6 +1,10 @@
 # plugins
 plugins=(
+  colored-man-pages
+  docker
   git
+  httpie
+  sudo
   yarn
   zsh-autosuggestions
 )
