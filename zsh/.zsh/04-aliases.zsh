@@ -2,6 +2,7 @@
 alias cp="cp -r"
 # D
 alias dnf="sudo dnf"
+alias docker="podman"
 # G
 alias ga="git add"
 alias gaa="git add --all"
