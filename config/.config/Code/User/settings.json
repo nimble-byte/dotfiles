@@ -1,39 +1,34 @@
 {
-  // Editor
   "editor.cursorStyle": "line-thin",
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.fontFamily": "'Cascadia Code', 'Source Code Pro'",
+  "editor.fontFamily": "'Cascadia Code', monospace",
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "boundary",
-  "editor.rulers": [100],
+  "editor.rulers": [100, 120],
+  "editor.suggestSelection": "first",
   "editor.tabSize": 2,
 
-  // ESLint
   "eslint.enable": true,
   "eslint.packageManager": "yarn",
 
-  // Explorer
   "explorer.confirmDelete": true,
 
-  // Files
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
-  // Git
   "git.confirmSync": false,
 
-  // Integrated Terminal
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontFamily": "MesloLGLDZ Nerd Font Mono",
   "terminal.integrated.scrollback": 10000,
 
-  // JS
   "javascript.updateImportsOnFileMove.enabled": "always",
 
-  // Window
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
   "window.menuBarVisibility": "visible",
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
@@ -59,7 +54,5 @@
   },
   "workbench.iconTheme": "material-icon-theme",
   "workbench.statusBar.feedback.visible": false,
-  "workbench.colorTheme": "One Dark Pro",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  "workbench.colorTheme": "One Dark Pro Vivid",
 }
