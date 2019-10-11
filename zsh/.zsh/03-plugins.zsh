@@ -5,7 +5,6 @@ plugins=(
   git
   httpie
   sudo
-  yarn
   zsh-autosuggestions
 )
 
