@@ -2,7 +2,7 @@
   "editor.cursorStyle": "line-thin",
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.fontFamily": "'Cascadia Code', monospace",
+  "editor.fontFamily": "'Cascadia Code', 'Noto Color Emoji', monospace",
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "boundary",
   "editor.rulers": [100, 120],
