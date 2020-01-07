@@ -18,12 +18,15 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
+  "git.autofetch": true,
   "git.confirmSync": false,
 
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontFamily": "MesloLGLDZ Nerd Font Mono",
   "terminal.integrated.scrollback": 10000,
+
+  "todo-tree.highlights.enabled": false,
 
   "javascript.updateImportsOnFileMove.enabled": "always",
 
@@ -54,5 +57,5 @@
   },
   "workbench.iconTheme": "material-icon-theme",
   "workbench.statusBar.feedback.visible": false,
-  "workbench.colorTheme": "One Dark Pro Vivid",
+  "workbench.colorTheme": "One Dark Pro",
 }
