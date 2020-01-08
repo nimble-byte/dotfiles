@@ -21,6 +21,8 @@
   "git.autofetch": true,
   "git.confirmSync": false,
 
+  "oneDarkPro.vivid": true,
+
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontFamily": "MesloLGLDZ Nerd Font Mono",
@@ -35,6 +37,7 @@
   "window.menuBarVisibility": "visible",
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
+
   "workbench.colorCustomizations": {
     "terminal.background": "#252525",
     "terminal.foreground": "#eceff1",
