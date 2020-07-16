@@ -5,14 +5,14 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# path extensions
+export PATH="$PATH:/snap/bin"
+export PATH="$PATH:$HOME/.local/bin"
+
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 [[ -r $NVM_DIR/bash_completion ]] && \. $NVM_DIR/bash_completion
-
-# path extensions
-export PATH="$PATH:/snap/bin"
-export PATH="$PATH:$HOME/.local/bin"
 
 # oh-my-zsh settings
 export ZSH="/home/$USER/.oh-my-zsh"
@@ -30,7 +30,7 @@ plugins=(
 # plugin settings
 bindkey "^ " autosuggest-accept
 
-source $ZSH/oh-my-zsh.sh
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+source $ZSH/oh-my-zsh.sh

@@ -2,6 +2,7 @@
   "editor.cursorStyle": "line-thin",
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'Cascadia Code', 'MesloLGLDZ Nerd Font Mono', monospace",
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "boundary",
