@@ -3,7 +3,7 @@
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "'Cascadia Code', 'MesloLGLDZ Nerd Font Mono', monospace",
+  "editor.fontFamily": "'CaskaydiaCove Nerd Font Mono', monospace",
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "boundary",
   "editor.rulers": [100, 120],
@@ -23,7 +23,7 @@
 
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.fontFamily": "'CaskaydiaCove Nerd Font Mono', 'Cascadia Code', monospace",
+  "terminal.integrated.fontFamily": "'CaskaydiaCove Nerd Font Mono', monospace",
   "terminal.integrated.scrollback": 10000,
 
   "todo-tree.highlights.enabled": false,
