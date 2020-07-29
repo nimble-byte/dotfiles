@@ -115,11 +115,11 @@
 
   # Basic style options that define the overall look of your prompt. You probably don't want to
   # change them.
-  typeset -g POWERLEVEL9K_BACKGROUND=                                       # transparent background
-  typeset -g POWERLEVEL9K_{LEFT,RIGHT}_{LEFT,RIGHT}_WHITESPACE=' '          # no surrounding whitespace
-  typeset -g POWERLEVEL9K_LEFT_SUBSEGMENT_SEPARATOR='%F{008}\uf054%F{008}'  # separate segments right chevron
-  typeset -g POWERLEVEL9K_RIGHT_SUBSEGMENT_SEPARATOR='%F{008}\uf053%F{008}' # separate segments left chevron
-  typeset -g POWERLEVEL9K_{LEFT,RIGHT}_SEGMENT_SEPARATOR=                   # no end-of-line symbol
+  typeset -g POWERLEVEL9K_BACKGROUND=                                         # transparent background
+  typeset -g POWERLEVEL9K_{LEFT,RIGHT}_{LEFT,RIGHT}_WHITESPACE=               # no surrounding whitespace
+  typeset -g POWERLEVEL9K_LEFT_SUBSEGMENT_SEPARATOR=' %F{008}\uf054%F{008} '  # separate segments right chevron
+  typeset -g POWERLEVEL9K_RIGHT_SUBSEGMENT_SEPARATOR=' %F{008}\uf053%F{008} ' # separate segments left chevron
+  typeset -g POWERLEVEL9K_{LEFT,RIGHT}_SEGMENT_SEPARATOR=                     # no end-of-line symbol
 
   # When set to true, icons appear before content on both sides of the prompt. When set
   # to false, icons go after content. If empty or not set, icons go before content in the left
@@ -190,9 +190,9 @@
   # Red prompt symbol if the last command failed.
   typeset -g POWERLEVEL9K_PROMPT_CHAR_ERROR_{VIINS,VICMD,VIVIS,VIOWR}_FOREGROUND=1
   # Default prompt symbol.
-  typeset -g POWERLEVEL9K_PROMPT_CHAR_{OK,ERROR}_VIINS_CONTENT_EXPANSION='»'
+  typeset -g POWERLEVEL9K_PROMPT_CHAR_{OK,ERROR}_VIINS_CONTENT_EXPANSION=' »'
   # Prompt symbol in command vi mode.
-  typeset -g POWERLEVEL9K_PROMPT_CHAR_{OK,ERROR}_VICMD_CONTENT_EXPANSION='«'
+  typeset -g POWERLEVEL9K_PROMPT_CHAR_{OK,ERROR}_VICMD_CONTENT_EXPANSION=' «'
   # Prompt symbol in visual vi mode.
   typeset -g POWERLEVEL9K_PROMPT_CHAR_{OK,ERROR}_VIVIS_CONTENT_EXPANSION='Ⅴ'
   # Prompt symbol in overwrite vi mode.
