@@ -20,6 +20,10 @@ export UPDATE_ZSH_DAYS=6
 export ZSH_THEME="powerlevel10k/powerlevel10k"
 export HIST_STAMPS="yyyy-mm-dd"
 
+# WSL specific info
+export CHROMIUM_BIN='/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'
+export CHROME_BIN='/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'
+
 plugins=(
   git
   httpie
