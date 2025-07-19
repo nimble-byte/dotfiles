@@ -118,6 +118,8 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Autosuggestion config
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=242' # grey
+
 if [[ $(uname) == "Darwin" ]]; then
   bindkey "^I" complete-word        # tab         | completion
   bindkey '^[[Z' autosuggest-accept # shift-tab   | autosuggestion
