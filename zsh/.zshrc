@@ -132,3 +132,15 @@ if [[ $(uname) == "Darwin" ]]; then
   export HOMEBREW_NO_ANALYTICS=1
   export HOMEBREW_NO_ENV_HINTS=1
 fi
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/nimblebyte/.lmstudio/bin"
+# End of LM Studio CLI section
+
+
+# bun completions
+[ -s "/Users/nimblebyte/.bun/_bun" ] && source "/Users/nimblebyte/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

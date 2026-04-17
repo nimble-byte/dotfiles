@@ -56,7 +56,7 @@
     # command_execution_time  # previous command duration
     # =========================[ Line #2 ]=========================
     newline                   # \n
-    # virtualenv              # python virtual environment
+    virtualenv                # python virtual environment
     prompt_char               # prompt symbol
   )
 
@@ -64,7 +64,7 @@
   typeset -g POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(
     # =========================[ Line #1 ]=========================
     command_execution_time    # previous command duration
-    virtualenv                # python virtual environment
+    # virtualenv              # python virtual environment
     context                   # user@host
     time                      # current time
     # =========================[ Line #2 ]=========================
@@ -168,7 +168,7 @@
   #   - always:   Trim down prompt when accepting a command line.
   #   - same-dir: Trim down prompt when accepting a command line unless this is the first command
   #               typed after changing current working directory.
-  typeset -g POWERLEVEL9K_TRANSIENT_PROMPT=same-dir
+  typeset -g POWERLEVEL9K_TRANSIENT_PROMPT=off
 
   # Instant prompt mode.
   #
