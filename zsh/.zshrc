@@ -23,7 +23,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
-# Uncomment the following line to use case-sensitive completion.
+# Use case-sensitive completion.
 CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion.
@@ -134,13 +134,19 @@ if [[ $(uname) == "Darwin" ]]; then
 fi
 
 # Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/nimblebyte/.lmstudio/bin"
+# only add to PATH if the directory exists
+if [[ -d "$HOME/.lmstudio/bin" ]]; then
+  # only add to PATH if it's not already there
+  case ":$PATH:" in
+    *":$HOME/.lmstudio/bin:"*) ;;
+    *) export PATH="$PATH:$HOME/.lmstudio/bin" ;;
+  esac
+fi
 # End of LM Studio CLI section
 
-
-# bun completions
-[ -s "/Users/nimblebyte/.bun/_bun" ] && source "/Users/nimblebyte/.bun/_bun"
-
-# bun
+# Bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Load bun completions
+[ -s "$BUN_INSTALL/_bun" ] && source "$BUN_INSTALL/_bun"
