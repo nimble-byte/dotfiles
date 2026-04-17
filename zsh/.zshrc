@@ -146,7 +146,13 @@ fi
 
 # Bun
 export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+if [[ -d "$BUN_INSTALL/bin" ]]; then
+  case ":$PATH:" in
+    *":$BUN_INSTALL/bin:"*) ;;
+    *) export PATH="$PATH:$BUN_INSTALL/bin" ;;
+  esac
+  export PATH="$BUN_INSTALL/bin:$PATH"
+fi
 
-# Load bun completions
+# bun completions
 [ -s "$BUN_INSTALL/_bun" ] && source "$BUN_INSTALL/_bun"
