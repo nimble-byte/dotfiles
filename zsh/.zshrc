@@ -127,6 +127,8 @@ else
   bindkey "^ " autosuggest-accept   # ctrl+space  | autosuggestion
 fi
 
+export PATH="$HOME/.local/bin:$PATH"
+
 # Homebrew config (on MacOS)
 if [[ $(uname) == "Darwin" ]]; then
   export HOMEBREW_NO_ANALYTICS=1
